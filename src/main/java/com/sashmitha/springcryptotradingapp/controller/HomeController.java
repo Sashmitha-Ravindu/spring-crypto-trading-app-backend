@@ -13,4 +13,9 @@ public class HomeController {
     public String home() {
         return "Welcome to the Crypto Trading App!";
     }
+
+    @GetMapping("/api")
+    public String secure(){
+        return "Welcome to the Secure Crypto Trading App!";
+    }
 }
